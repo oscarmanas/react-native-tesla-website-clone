@@ -7,7 +7,7 @@ export default function App() {
   return (
     <View style={styles.container}>
         <CarItem/>
-      <StatusBar style="auto" />
+      <StatusBar style="auto" content />
     </View>
   );
 }
