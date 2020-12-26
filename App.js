@@ -6,7 +6,14 @@ import CarItem from './components/CarItem/index'
 export default function App() {
   return (
     <View style={styles.container}>
-        <CarItem/>
+        
+        <CarItem 
+        name={"Santa Ana"}
+        tagline={"Order online for"}
+        taglineCTA= {"Touchless Delivery"}
+        image={require('./assets/images/ModelX.jpeg')}
+        />
+
       <StatusBar style="auto" content />
     </View>
   );
